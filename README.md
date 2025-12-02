@@ -1,5 +1,5 @@
 # Guía Profesional de Etiquetas HTML
-
+ 
 Este README tiene como objetivo proporcionar una referencia rápida y profesional sobre las etiquetas HTML más comunes y su uso adecuado. HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web y su estructura.
 
 ## Tabla de Contenidos
