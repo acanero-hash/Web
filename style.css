@@ -107,6 +107,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     transition: .3s ease-in-out;
+    margin-bottom: 5px;
 }
     button:hover {
         box-shadow: 0 0 15px black;
@@ -121,4 +122,11 @@ summary{
 li{
     color: #333;
     padding-right: 2px;
+}
+#copernic{
+    color: aliceblue;
+    text-decoration: none;
+}
+#copernic:hover{
+    text-decoration: underline;
 }
