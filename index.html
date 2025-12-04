@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página HTML</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simpledotcss@latest/simple.min.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Manual d'ús de l'Inventari General</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simpledotcss@latest/simple.min.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header >
         <img src="s_Logo_aperture_1-removebg-preview.png" alt="Logo de la página" id="logo">
         <div class="header-content">
-            <h1>Bienvenido a mi página básica</h1>
+            <h1>Manual d'ús de l'Inventari General</h1>
             <nav>
                 <ol>
                     <li><a href="#inicio">Inicio</a></li>
@@ -25,31 +25,35 @@
 
     <main>
         <section id="inicio">
-            <h2>Sección de Inicio</h2>
-            <p>Este es el contenido principal de la sección de inicio.</p>
+            <h2>Secció Index</h2>
+            <p>Enllaç directe als apartats del manual.</p>
+            <ol>
+                <li><button><a href="#intro" id="enlace" target="_self">Introducció</a></button></li>
+                <li><button><a href="#que_es" id="enlace" target="_self">Per a qué existeix</a></button></li>
+                <li><button><a href="#guia_1" id="enlace" target="_self">Guia de préstecs</a></button></li>
+            </ol>
+            
             <details>
-                <summary>Más información sobre el inicio</summary>
-                <p>Aquí puedes encontrar detalles adicionales sobre la sección de inicio.</p>
+                <summary>Més informació sobre l'Index</summary>
+                <p>Enllaç directe a totes les pàgines del manual.</p>
             </details>
         </section>
 
-        <section id="acerca">
-            <h2>Sección Acerca de</h2>
-            <p>Aquí hablamos un poco sobre nosotros.</p>
-            <details>
-                <summary>Detalles sobre nosotros</summary>
-                <p>Somos un equipo pequeño aprendiendo HTML.</p>
-            </details>
-        </section>
-
+          <h1 id="intro">Introducció al Sistema d'Inventari</h1>
+          <h2 id="que_es">Què es i per a que existeix</h2>
+          <h2 id="guia_1">Guia de préstecs</h2>
+          <h2>Guia d'avaries</h2>
+          <h2>Dashboard</h2>
+          <h2>Manteniment del Sistema</h2>
+          <h2></h2>
         <button>Contactar</button>
     </main>
 
     <footer>
         <p>&copy; 2025 Mi Página Básica. Todos los derechos reservados.</p>
         <p>
-            <a href="https://www.google.com" >Visita Google</a> |
-            <a href="https://www.openai.com" target="_blank">Visita OpenAI</a>
+            <a href="https://copernic.cat" target="_self">Visita Institut Copernic</a> |
+            <a href="https://copernic.cat" target="_blank">Visita Institut Copernic</a>
         </p>
     </footer>
 
