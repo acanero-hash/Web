@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual d'ús de l'Inventari General</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simpledotcss@latest/simple.min.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,13 +15,10 @@
             <nav>
                 <ol>
                     <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#acerca">Acerca de</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
                 </ol>
             </nav>
         </div>
     </header>
-
     <main>
         <section id="inicio">
             <h2>Secció Index</h2>
@@ -31,31 +27,40 @@
                 <li><button><a href="#intro" id="enlace" target="_self">Introducció</a></button></li>
                 <li><button><a href="#que_es" id="enlace" target="_self">Per a qué existeix</a></button></li>
                 <li><button><a href="#guia_1" id="enlace" target="_self">Guia de préstecs</a></button></li>
+                <li><button><a href="#guia_2" id="enlace" target="_self">Guia d'avaries</a></button></li>
+                <li><button><a href="#dashboard" id="enlace" target="_self">Dashboard</a></button></li>
+                <li><button><a href="#manteniment" id="enlace" target="_self">Manteniment del Sistema</a></button></li>
             </ol>
-            
-            <details>
-                <summary>Més informació sobre l'Index</summary>
-                <p>Enllaç directe a totes les pàgines del manual.</p>
-            </details>
-        </section>
 
           <h1 id="intro">Introducció al Sistema d'Inventari</h1>
-          <h2 id="que_es">Què es i per a que existeix</h2>
-          <h2 id="guia_1">Guia de préstecs</h2>
-          <h2>Guia d'avaries</h2>
-          <h2>Dashboard</h2>
-          <h2>Manteniment del Sistema</h2>
-          <h2></h2>
-        <button>Contactar</button>
+          <details id="que_es">
+            <summary>Què es i per a que existeix</summary>
+            <p>Aquest és un manual d’usuaris per aquells que no sàpiguen com funciona tot el nostre sistema de treball. Explicarem pas a pas la utilització de les noves eines implentades en el sistema. L’objectius d’aquest manual es que totom que suigui nou utilitzant el nostre sistema sàpiga com desenvolupar se en aquest.</p>
+          </details>
+          <details id="guia_1">
+            <summary>Guia de préstecs</summary>
+            <p></p>
+          </details>
+          <details id="guia_2">
+            <summary>Guia d'avaries</summary>
+            <p></p>
+          </details>
+          <details id="dashboard">
+            <summary>Dashboard</summary>
+            <p></p>
+          </details>
+          <details id="manteniment">
+            <summary>Manteniment del Sistema</summary>
+            <p></p>
+          </details>
     </main>
-
     <footer>
-        <p>&copy; 2025 Mi Página Básica. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Aperture Consulting. Tots els drets reservats</p>
+        <p>Sistema desenvolupat per A4</p>
         <p>
-            <a href="https://copernic.cat" target="_self">Visita Institut Copernic</a> |
-            <a href="https://copernic.cat" target="_blank">Visita Institut Copernic</a>
+            <a href="https://copernic.cat" id="copernic" target="_blank">Visita Institut Copernic</a> |
+            <a href="https://copernic.cat" id="copernic" target="_blank">Visita Institut Copernic</a>
         </p>
     </footer>
-
 </body>
 </html> 
